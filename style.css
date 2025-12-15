@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: url("img/bg1.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.app-main {
+  width: 30vw;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+  border-radius: 15px;
+  background: linear-gradient(to top, #92fe9d, #c0dfec);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.header h4 {
+  font-size: 2.3rem;
+  color: #da1e4e;
+  margin-bottom: 20px;
+}
+
+.input-box {
+  width: 100%;
+  padding: 10px;
+  font-size: 1.4rem;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  text-align: center;
+}
+
+.weather-body {
+  display: none;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  background: linear-gradient(to top, #da1e4e, #e4603a);
+}
+
+.location-details {
+  font-weight: bold;
+}
+
+.temp {
+  font-size: 4.5rem;
+  margin: 15px 0;
+}
+
+.weather {
+  font-size: 2rem;
+}
+
+.min-max {
+  margin-top: 10px;
+}
+
+.day-details {
+  margin-top: 15px;
+  font-size: 1rem;
+}
+
+@media (max-width: 800px) {
+  .app-main {
+    width: 95%;
+  }
+}
